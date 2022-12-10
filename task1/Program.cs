@@ -4,7 +4,7 @@
 //Вводим сразу все числа в одну линию, не через бесконечное кол-во ReadLine.
 Console.WriteLine ("Введите M чисел, через пробел или запятую:");
 string a = Console.ReadLine();
-int[] mass=Array.ConvertAll(a.Split(' ',',','.'),int.Parse);
+int[] mass=Array.ConvertAll(a.Split(' ',','),int.Parse);
  
 Console.WriteLine("Чисел больше нуля: "+CountBolsheNull(mass));
 
